@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    int a = 0;
-    int b = 0;
-    scanf("%d %d", &a, &b);
+    long long int a = 0;
+    long long int b = 0;
+    scanf("%lld %lld", &a, &b);
     long long int c = a - b;
     if (c < 0)
     {
